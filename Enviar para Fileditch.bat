@@ -66,9 +66,6 @@ set link_upload=%link_upload:\/=/%
 :: Copiando link de upload para a área de transferência
 echo %link_upload% | clip >nul 2>&1
 
-:: Um arquivo de texto temporário foi criado aqui: %temp%/sendto-fileupload-fileditch-link.txt
-:: Este arquivo serve apenas para copiar o link após o upload do arquivo, o mesmo poderá ser apagado após o upload estar completo
-
 :: Mostrando o link e diretorio do arquivo enviado
 echo.
 echo.
